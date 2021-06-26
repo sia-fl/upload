@@ -210,7 +210,7 @@ class AjaxUploader extends Component<UploadProps> {
       headers,
       withCredentials,
       method: method || 'post',
-      processData: processData || true,
+      processData: processData !== undefined ? processData : true,
       onProgress: (e: UploadProgressEvent) => {
         const { onProgress } = this.props;
         onProgress?.(e, parsedFile);
