@@ -1,5 +1,5 @@
 {
-  "name": "sia-upload",
+  "name": "sia-rc-upload",
   "version": "4.3.1",
   "description": "upload ui component for react",
   "keywords": [
